@@ -19,5 +19,5 @@ if(is_user_browser_language_available == false)
 }
 else
 {
-	window.location.href = "../doc/pages/".concat(lang.substr(0,2), "/welcome.html");
+	window.location.href = "../pages/".concat(lang.substr(0,2), "/welcome.html");
 }
