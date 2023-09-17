@@ -15,9 +15,9 @@ for(var i = 0; i < available_languages.length; i++)
 
 if(is_user_browser_language_available == false)
 {
-	window.location.href = "../pages/current_browser_language_is_not_available.html";
+	window.location.href = "pages/current_browser_language_is_not_available.html";
 }
 else
 {
-	window.location.href = "../pages/".concat(lang.substr(0,2), "/welcome.html");
+	window.location.href = "pages/".concat(lang.substr(0,2), "/welcome.html");
 }
