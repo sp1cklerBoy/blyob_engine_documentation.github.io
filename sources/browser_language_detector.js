@@ -15,7 +15,7 @@ for(var i = 0; i < available_languages.length; i++)
 
 if(is_user_browser_language_available == false)
 {
-	window.location.href = "../doc/pages/current_browser_language_is_not_available.html";
+	window.location.href = "../pages/current_browser_language_is_not_available.html";
 }
 else
 {
